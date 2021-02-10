@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #fcfcfc;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.05); 
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.05);
+    
+    
+    
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(143, 143, 143);
+}
+.container{
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.05); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.05);
+    height: 100%;
+    min-height: 80vh;
+    width: 80vw;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    overflow: scroll;
+}
+h3{
+    color: white;
+    margin: 4px;
+}
+
+.input-ui, .output-ui{
+  width: 100%; 
+  
+ 
+
+ 
+
+}
+.input-ui{
+    background-color: #c59aa0;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #589fac 74%);
+    text-align: center;
+    height: 120px;
+    margin-bottom: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+   
+}
+.output-ui{
+   
+   min-height: 520px;
+   background-color: white;
+    
+}
+.output-ui ul {
+    list-style: none;
+    padding: 20px;
+
+}
+.output-ui ul li {
+    margin: 0.8rem;
+    border-bottom: solid 0.1px rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    
+}
+input{
+    padding: 6px;
+    font-size: 20px;
+    border: none;
+    color: gray;
+    border-radius: 3px;
+    height: 40px;
+   
+}
+
+input:focus{
+   outline:none;
+   border: solid 1px lightslategray;
+}
+input[type=checkbox]{
+   font-size: 2rem;
+}
+input[type=submit]{
+   background-color: rgb(143, 161, 179);
+   color: white;
+   border-radius: 3px;
+}
+input[type=submit]:hover{
+   background-color: white;
+   color: rgb(143, 161, 179);
+   transition: all 500ms ease-in-out;
+   
+}
+.filter{
+    margin: 2%;
+    background-color: rgb(247, 247, 247);
+}
+.task{
+    padding: 5px;
+    font-size: 1.4rem;
+    border-radius: 6px;
+}
+.msg{
+    background-color: rgb(247, 247, 247);
+    height: 200px;
+    color: gray;
+    margin: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    
+    
+}
+
+
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+a:hover{
+    opacity: 0.6;
+    color: rgba(14, 224, 102, 0.966);
+    
+}
+
+.clear-tasks{
+    background-color: lightcoral;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.clear-tasks:hover{
+    background-color: rgb(247, 247, 247);
+    color: lightcoral;
+    transition: all 0.5s ease-in-out;
+}
